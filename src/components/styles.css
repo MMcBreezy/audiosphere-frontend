@@ -11,15 +11,70 @@
 }
 
 .header-container {
-  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));  
+  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
   color: #24272b;
+  margin-left: 20px;
   font-size: calc(10px + 2vmin);
+}
+
+.main-container {
+  background-color: #24272b;
+  width: 70%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-right: 1px solid #f2f2f2;
+  margin-top: 55px;
+  overflow-y: auto;
+}
+
+.side-container {
+  background-color: #24272b;
+  width: 30%;
+  max-width: 400px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 55px;
+  border-right: 1px solid #f2f2f2;
+  overflow-y: auto;
+}
+
+.post-container {
+  background-color: rgb(33, 94, 170);
+  margin: 15px;
+  min-height: 30%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  color: #24272b;
+  font-size: calc(10px + .8vmin)
 }

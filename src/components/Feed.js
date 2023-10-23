@@ -1,0 +1,17 @@
+import React from "react";
+import "./styles.css";
+import Post from "./Post";
+
+const Feed = () => {
+  return (
+    <div className="main-container">
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  );
+};
+
+export default Feed;

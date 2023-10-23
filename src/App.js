@@ -1,6 +1,9 @@
 import "./App.css";
 import Button from "./components/Button";
+import Feed from "./components/Feed";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import SideContent from "./components/SideContent";
 
 function App() {
   return (
@@ -9,8 +12,11 @@ function App() {
         <Header />
       </header>
       <body className="App-body">
-        <Button onClick={() => alert("Button clicked!")}>Click Me!</Button>
+        <Feed />
+        <SideContent />
+        {/* <Button onClick={() => alert("Button clicked!")}>Click Me!</Button> */}
       </body>
+      <Footer />
     </div>
   );
 }
