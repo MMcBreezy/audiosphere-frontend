@@ -11,14 +11,12 @@
 }
 
 .header-container {
-  /* background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170)); */
   background-color: #24272b;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 9px;
   font-weight: bold;
-  border-bottom: 1px solid #f2f2f2;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,9 +32,10 @@
 .main-container {
   background-color: #24272b;
   width: 70%;
+  max-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-right: 1px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
   margin-top: 55px;
   overflow-y: auto;
 }
@@ -44,7 +43,7 @@
 .side-container {
   background-color: #24272b;
   width: 30%;
-  max-width: 400px;
+  width: 300px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -52,7 +51,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 55px;
-  border-right: 1px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
   overflow-y: auto;
 }
 
@@ -68,16 +67,17 @@
 }
 
 .footer-container {
+  background-color: #24272b;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #24272b;
-  border-top: 1px solid #f2f2f2;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px;
   font-size: calc(10px + 0.8vmin);
+  border-top: 1px solid #f2f2f2;
+
 }
