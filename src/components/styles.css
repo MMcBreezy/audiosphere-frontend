@@ -11,12 +11,14 @@
 }
 
 .header-container {
-  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));
+  /* background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170)); */
+  background-color: #24272b;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   font-weight: bold;
+  border-bottom: 1px solid #f2f2f2;
   position: fixed;
   top: 0;
   left: 0;
@@ -24,7 +26,7 @@
 }
 
 .logo {
-  color: #24272b;
+  color: white;
   margin-left: 20px;
   font-size: calc(10px + 2vmin);
 }
@@ -55,7 +57,7 @@
 }
 
 .post-container {
-  background-color: rgb(33, 94, 170);
+  background: transparent;
   margin: 15px;
   min-height: 30%;
   border: 1px solid #f2f2f2;
@@ -70,11 +72,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));
+  background-color: #24272b;
+  border-top: 1px solid #f2f2f2;
+  color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6px;
-  color: #24272b;
-  font-size: calc(10px + .8vmin)
+  font-size: calc(10px + 0.8vmin);
 }
