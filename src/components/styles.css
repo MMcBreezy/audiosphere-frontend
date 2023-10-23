@@ -11,10 +11,15 @@
 }
 
 .header-container {
-  background-color: rgb(49, 142, 255);  
+  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   font-weight: bold;
+}
+
+.logo {
+  color: #24272b;
+  font-size: calc(10px + 2vmin);
 }
