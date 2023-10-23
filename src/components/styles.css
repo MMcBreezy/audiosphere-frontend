@@ -1,9 +1,25 @@
 .button {
-    background-color: transparent;
-    color: white;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    padding: 7px;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  border-width: 1.3px;
+  border-color: white;
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+  margin: 2px;
+}
 
+.header-container {
+  background: linear-gradient(to right, rgb(157, 201, 255), rgb(33, 94, 170));  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.logo {
+  color: #24272b;
+  font-size: calc(10px + 2vmin);
 }
