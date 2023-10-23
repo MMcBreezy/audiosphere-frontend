@@ -1,6 +1,6 @@
 // Header.js
 import React from "react";
-import "./styles.css";
+import "./header.css";
 import LoginButton from "./LoginButton";
 import InboxButton from "./InboxButton";
 import NotificationsButton from "./NotificationsButton";

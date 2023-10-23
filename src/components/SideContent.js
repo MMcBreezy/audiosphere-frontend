@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./sideContent.css";
 
 const SideContent = () => {
   return (
