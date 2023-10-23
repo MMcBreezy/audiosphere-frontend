@@ -7,12 +7,12 @@ import SideContent from "./components/SideContent";
 function App() {
   return (
     <div className="App">
-      <body className="App-body">
+      <div className="App-body">
         <Header />
         <Feed />
         <SideContent />
         <Footer />
-      </body>
+      </div>
     </div>
   );
 }

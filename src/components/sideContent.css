@@ -1,13 +1,14 @@
 .side-container {
   background-color: #24272b;
   width: 30%;
-  min-height: 100vh;
+  width: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 55px;
+  margin-bottom: 100px;
   border: 1px solid #f2f2f2;
   overflow-y: auto;
 }
