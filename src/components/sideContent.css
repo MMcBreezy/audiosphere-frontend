@@ -1,14 +1,40 @@
 .side-container {
   background-color: #24272b;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
   width: 290px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 5px;
   margin-bottom: 110px;
-  border: 1px solid #f2f2f2;
+  padding: 10px;
   overflow-y: auto;
+}
+
+.greeting {
+  font-size: 18px;
+}
+
+.userName {
+  font-style: italic;
+}
+
+.greeting-message {
+  font-size: 16px;
+}
+
+.suggest-follow-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.suggest-follow-profile-image {
+  max-width: 40px;
+  max-height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 4px;
 }

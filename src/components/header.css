@@ -2,26 +2,24 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  margin-top: 5px;
   padding: 8px;
   background-color: #24272b;
+  border-bottom: 1px solid white;
 }
 
 .logo {
-  /* color: white; */
-  font-size: calc(12px + 3vmin);
+  font-size: calc(30px);
   background-image: linear-gradient(
     to right,
     #66e8ed,
     #4454e0
-  ); /* Gradient colors */
+  );
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .spacer-div {
   flex-grow: 1;
-  /* flex-shrink: 2; */
 }
 
 .header-buttons {
