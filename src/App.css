@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 6px;
-  position: relative;
+  min-width: 720px;
 }
 
 .App-header {
@@ -11,6 +11,7 @@
   width: 1030px;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 @media (max-width: 1020px) {
@@ -24,5 +25,6 @@
   justify-content: center;
   background-color: #24272b;
   padding-top: 60px;
-  max-height: calc(100vh - 112px)
+  max-height: calc(100vh - 112px);
+  width: 100%;
 }
