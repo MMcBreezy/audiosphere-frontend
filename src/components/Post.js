@@ -1,6 +1,7 @@
 import React from "react";
 import profilePic from "../assets/4299915.png";
 import "./post.css";
+import LikeButton from "./LikeButton";
 
 const Post = () => {
   return (
@@ -14,7 +15,7 @@ const Post = () => {
         <div className="name">User</div>
       </div>
       <div className="content-section">Content</div>
-      <div className="buttons-section">Buttons</div>
+      <LikeButton />
       <div className="comments-section">Comments</div>
     </div>
   );

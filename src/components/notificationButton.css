@@ -1,0 +1,19 @@
+.notification-button {
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 4px;
+  
+  }
+  
+  .notification-button:hover {
+    background-color: #6c6c6c;
+  }
+  
+  .notification-button-img {
+    height: 15px;
+    width: 15px;
+    filter: invert(100%);
+  }

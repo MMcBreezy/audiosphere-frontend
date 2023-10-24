@@ -7,17 +7,15 @@ import NotificationsButton from "./NotificationsButton";
 
 const Header = () => {
   return (
-    <header>
-      <div className="header-container">
-        <div className="logo">AudioSphere</div>
-        <div className="header-buttons">
-          <LoginButton />
-          <InboxButton />
-          <NotificationsButton />
-          {/* Add more buttons here */}
-        </div>
+    <div className="header-container">
+      <div className="logo">AudioSphere</div>
+      <div className="spacer-div"></div>
+      <div className="header-buttons">
+        <NotificationsButton />
+        <InboxButton />
+        <LoginButton />
       </div>
-    </header>
+    </div>
   );
 };
 

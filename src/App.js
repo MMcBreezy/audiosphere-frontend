@@ -7,8 +7,10 @@ import SideContent from "./components/SideContent";
 function App() {
   return (
     <div className="App">
-      <div className="App-body">
+      <div className="App-header">
         <Header />
+      </div>
+      <div className="App-body">
         <Feed />
         <SideContent />
         <Footer />

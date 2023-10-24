@@ -1,13 +1,16 @@
 import React from "react";
 import Button from "./Button";
+import notificationImage from "../assets/565422.png";
+import "./notificationButton.css"
+
 
 const NotificationsButton = () => {
   return (
     <Button
-      className="header-button"
+      className="notification-button"
       onClick={() => alert("NotificationButton clicked!")}
     >
-      Notifications
+      <img src={notificationImage} alt="Like" className="notification-button-img"/>
     </Button>
   );
 };
