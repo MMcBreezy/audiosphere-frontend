@@ -1,14 +1,16 @@
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 6px;
+  position: relative;
 }
 
 .App-header {
   height: 60px;
   width: 1030px;
+  position: fixed;
+  top: 0;
 }
 
 @media (max-width: 1020px) {
@@ -21,6 +23,6 @@
   display: flex;
   justify-content: center;
   background-color: #24272b;
-  height: 100vh;
-  width: 100%;
+  padding-top: 60px;
+  max-height: calc(100vh - 112px)
 }
