@@ -1,7 +1,9 @@
 .main-container {
   background-color: #24272b;
   max-height: 100vh;
-  width: 740px;
+  display: flex;
+  flex-direction: column;
+  min-width: 740px;
   font-size: calc(10px + 2vmin);
   color: white;
   border-right: 1px solid #f2f2f2;

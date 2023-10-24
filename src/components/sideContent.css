@@ -1,9 +1,7 @@
 .side-container {
   background-color: #24272b;
-  display: flex;
   flex-direction: column;
   width: 290px;
-  display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 5px;
@@ -14,6 +12,7 @@
 
 .greeting {
   font-size: 18px;
+  width: 290px;
 }
 
 .userName {
@@ -29,11 +28,12 @@
   display: flex;
   flex-direction: column;
   font-size: 18px;
+  width: 290px;
 }
 
 .suggest-follow-profile-image {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 35px;
+  max-height: 35px;
   background-color: white;
   border-radius: 50px;
   margin: 4px;

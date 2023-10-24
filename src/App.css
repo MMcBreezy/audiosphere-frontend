@@ -3,21 +3,15 @@
   flex-direction: column;
   align-items: center;
   margin: 6px;
-  min-width: 720px;
+  min-width: 820px;
 }
 
 .App-header {
   height: 60px;
-  width: 1030px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
-}
-
-@media (max-width: 1020px) {
-  .App-header {
-    width: 100%;
-  }
 }
 
 .App-body {
@@ -27,4 +21,10 @@
   padding-top: 60px;
   max-height: calc(100vh - 112px);
   width: 100%;
+}
+
+@media (max-width: 1020px) {
+  .App-header {
+    width: 800px;
+  }
 }
