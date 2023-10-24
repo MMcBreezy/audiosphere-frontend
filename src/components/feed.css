@@ -8,3 +8,16 @@
   margin-top: 5px;
   overflow-y: auto;
 }
+
+.main-container::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: none;
+}
