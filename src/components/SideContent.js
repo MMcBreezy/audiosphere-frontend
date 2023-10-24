@@ -12,7 +12,7 @@ const SideContent = () => {
         </p>
       </div>
       <div className="suggest-follow-section">
-        Suggested artists:
+        <span className="suggest-follow-section-title">Suggested artists:</span>
         <div className="profiles">
           <img
             src={profilePic}
