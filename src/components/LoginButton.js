@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "./Button";
+import "./loginButton.css";
 
 const LoginButton = () => {
   return (
-    <Button
-      className="header-button"
+    <button
+      className="login-button"
       onClick={() => alert("LoginButton clicked!")}
     >
       Login
-    </Button>
+    </button>
   );
 };
 

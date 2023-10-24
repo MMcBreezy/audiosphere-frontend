@@ -5,7 +5,6 @@
   margin-top: 5px;
   padding: 8px;
   background-color: #24272b;
-  /* background-color: red; */
 }
 
 .logo {
@@ -13,8 +12,8 @@
   font-size: calc(12px + 3vmin);
   background-image: linear-gradient(
     to right,
-    #00f7ff,
-    #001aff
+    #66e8ed,
+    #4454e0
   ); /* Gradient colors */
   -webkit-background-clip: text;
   color: transparent;
