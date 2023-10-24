@@ -9,8 +9,15 @@
 }
 
 .logo {
-  color: white;
+  /* color: white; */
   font-size: calc(12px + 3vmin);
+  background-image: linear-gradient(
+    to right,
+    #00f7ff,
+    #001aff
+  ); /* Gradient colors */
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .spacer-div {
