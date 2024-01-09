@@ -7,7 +7,7 @@ const LoginButton = () => {
       className="login-button"
       onClick={() => alert("LoginButton clicked!")}
     >
-      Login
+      <span>Login</span>
     </button>
   );
 };
