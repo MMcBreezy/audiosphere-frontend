@@ -1,1 +1,2 @@
 Currently, this is only a simple (very) feed page that shows what Audiosphere would look like for a logged-in account. This is mostly for element placement for the UI.
+I'd like to discuss planning the next steps. DB, accounts (fans, artists), authentication, api, etc. 
