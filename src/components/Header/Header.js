@@ -1,9 +1,9 @@
 // Header.js
 import React from "react";
-import "./header.css";
-import LoginButton from "./LoginButton";
-import InboxButton from "./InboxButton";
-import NotificationsButton from "./NotificationsButton";
+import "./Header.css";
+import LoginButton from "../LoginButton";
+import InboxButton from "../InboxButton";
+import NotificationsButton from "../NotificationsButton";
 
 const Header = () => {
   return (

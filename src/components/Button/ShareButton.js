@@ -1,6 +1,6 @@
 import React from "react";
-import shareImage from "../assets/share.png";
-import "./shareButton.css";
+import shareImage from "../../assets/share.png";
+import "./ShareButton.css";
 
 const ShareButton = () => {
   return (

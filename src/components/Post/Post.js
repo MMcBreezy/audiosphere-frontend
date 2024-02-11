@@ -1,10 +1,10 @@
 import React from "react";
-import profilePic from "../assets/4299915.png";
-import "./post.css";
-import LikeButton from "./LikeButton";
-import CommentButton from "./CommentButton";
-import RepostButton from "./RepostButton";
-import ShareButton from "./ShareButton";
+import profilePic from "../../assets/4299915.png";
+import "./Post.css";
+import LikeButton from "../Button/LikeButton";
+import CommentButton from "../Button/CommentButton";
+import RepostButton from "../Button/RepostButton";
+import ShareButton from "../Button/ShareButton";
 
 const Post = () => {
   return (

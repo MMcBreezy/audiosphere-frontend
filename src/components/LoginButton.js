@@ -1,5 +1,5 @@
 import React from "react";
-import "./loginButton.css";
+import "./LoginButton.css";
 
 const LoginButton = () => {
   return (

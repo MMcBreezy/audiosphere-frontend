@@ -1,6 +1,6 @@
 import React from "react";
-import likeImage from "../assets/like-button.png";
-import "./likeButton.css";
+import likeImage from "../../assets/like-button.png";
+import "./LikeButton.css";
 
 const LikeButton = () => {
   return (

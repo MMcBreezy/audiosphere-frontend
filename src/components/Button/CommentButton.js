@@ -1,6 +1,6 @@
 import React from "react";
-import commentImage from "../assets/comment.png";
-import "./commentButton.css";
+import commentImage from "../../assets/comment.png";
+import "./CommentButton.css";
 
 const CommentButton = () => {
   return (

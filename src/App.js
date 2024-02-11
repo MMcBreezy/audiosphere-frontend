@@ -1,8 +1,8 @@
 import "./App.css";
-import Feed from "./components/Feed";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import SideContent from "./components/SideContent";
+import Feed from "./components/Feed/Feed.js"
+import Footer from "./components/Footer/Footer.js";
+import Header from "./components/Header/Header.js";
+import SideContent from "./components/SideContent.js";
 
 function App() {
   return (

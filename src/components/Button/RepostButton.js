@@ -1,6 +1,6 @@
 import React from "react";
-import repostImage from "../assets/repost.png";
-import "./repostButton.css";
+import repostImage from "../../assets/repost.png";
+import "./RepostButton.css";
 
 const RepostButton = () => {
   return (

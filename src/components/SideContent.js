@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../assets/4299915.png";
-import "./sideContent.css";
+import "./SideContent.css";
 
 const SideContent = () => {
   return (
