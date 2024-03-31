@@ -9,11 +9,7 @@
 
 .logo {
   font-size: calc(30px);
-  background-image: linear-gradient(
-    to right,
-    #66e8ed,
-    #4454e0
-  );
+  background-image: linear-gradient(to right, #66e8ed, #4454e0);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -24,4 +20,49 @@
 
 .header-buttons {
   display: flex;
+}
+
+.hamburger-btn {
+  background: transparent;
+  color: white;
+  border: 1.3px solid white;
+  -webkit-background-clip: border-box;
+  background-clip: text;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+.hamburger-menu.open {
+  display: block;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
 }
