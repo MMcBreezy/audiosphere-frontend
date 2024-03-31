@@ -11,7 +11,7 @@ const Feed = () => {
       />
       <Post
         content="Another text post."
-        embedSrc="https://music.apple.com/us/album/sample-album/123456789"
+        embedSrc="https://embed.music.apple.com/us/album/zoom-feat-tinashe/1730963264?i=1730963547"
       />
       <Post
         content="Yet another text post with an embedded YouTube video."

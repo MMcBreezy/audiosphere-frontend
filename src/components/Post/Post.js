@@ -7,6 +7,8 @@ import RepostButton from "../Button/RepostButton";
 import ShareButton from "../Button/ShareButton";
 
 const Post = ({ content, embedSrc }) => {
+
+  
   return (
     <div className="post-container">
       <div className="user-section">
