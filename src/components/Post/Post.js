@@ -6,15 +6,31 @@ import CommentButton from "../Button/CommentButton";
 import RepostButton from "../Button/RepostButton";
 import ShareButton from "../Button/ShareButton";
 
-const Post = () => {
+const Post = ({ content, embedSrc }) => {
   return (
     <div className="post-container">
       <div className="user-section">
         <img src={profilePic} alt="profile-pic" className="profile-image" />
         <span className="name">User</span>
       </div>
-      <div className="content-section">Content</div>
-      <div>
+      <div className="content-section">
+        {content && <p>{content}</p>}
+        {embedSrc && (
+          <div className="embed-container">
+            <iframe
+              className="embed-frame"
+              src={embedSrc}
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        )}
+      </div>
+      <div className="interactions">
         <LikeButton />
         <CommentButton />
         <RepostButton />
