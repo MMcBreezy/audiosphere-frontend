@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className="App-body">
         <Feed />
-        <SideContent />
+        {/* <SideContent /> */}
         <Footer />
       </div>
     </div>

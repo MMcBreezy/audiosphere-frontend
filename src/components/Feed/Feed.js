@@ -42,6 +42,13 @@ const Feed = () => {
         comments={comments["post3"]}
         addComment={addComment}
       />
+      <Post
+        postId="post4"
+        content="Checkout my updated tour schedule. US, coming to a city near you!"
+        embedSrc=""
+        comments={comments["post1"]}
+        addComment={addComment}
+      />
       {/* Add more posts with dummy data as needed */}
     </div>
   );
